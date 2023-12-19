@@ -10,7 +10,7 @@ const ProductCard = props => {
       <h1 className="title">{title}</h1>
       <p className="brand">by {brand}</p>
       <div className="product-details">
-        <p className="price">Rs {price}/-</p>
+        <p className="price">Rs {price}/- </p>
         <div className="rating-container">
           <p className="rating">{rating}</p>
           <img
